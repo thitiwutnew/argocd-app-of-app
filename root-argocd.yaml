@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: git@github.com:thitiwutnew/argocd-app-of-app.git
     targetRevision: main
-    path: app
+    path: ./
     directory:
       recurse: true
   destination:
