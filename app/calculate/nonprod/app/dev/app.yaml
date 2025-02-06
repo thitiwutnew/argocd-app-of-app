@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    path: ./
+    path: app
     repoURL: git@github.com:thitiwutnew/calculate-nonprod.git
     targetRevision: main
     helm:
