@@ -6,13 +6,13 @@ metadata:
 spec:
   project: default
   source:
-    path: app
+    path: ./calculate/app
     repoURL: git@github.com:thitiwutnew/calculate-nonprod.git
     targetRevision: main
     helm:
       releaseName: calculator-nonprd-dev
       valueFiles:
-        - ./values/dev.yaml
+        - ./calculate/app/values/dev.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
